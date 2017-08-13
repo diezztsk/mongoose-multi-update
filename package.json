@@ -1,0 +1,35 @@
+{
+  "name": "mongoose-multi-update",
+  "version": "1.0.0",
+  "description": "Mongoose plugin that allows you to update multiple fields at once.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require ./test/index.js --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diezztsk/mongoose-multi-update.git"
+  },
+  "keywords": [
+    "mongoose",
+    "update",
+    "multi"
+  ],
+  "author": {
+    "name": "Stanislav Shadskiy",
+    "email": "diezz.tsk@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diezztsk/mongoose-multi-update/issues"
+  },
+  "homepage": "https://github.com/diezztsk/mongoose-multi-update#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "mongoose": "^4.11.6"
+  }
+}
