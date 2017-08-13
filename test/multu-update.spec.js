@@ -12,7 +12,8 @@ var _getFakeModel = function () {
             'One',
             'Two',
             'Three'
-        ]
+        ],
+        booleanField: false
     });
 };
 
@@ -61,5 +62,15 @@ describe('Multi Update Plugin Test Case', function () {
         expect(model.fooArray[0]).to.equals('One');
         expect(model.fooArray[1]).to.equals('Two');
         expect(model.fooArray[2]).to.equals('Four');
+    });
+
+    it('Should update boolean field', function () {
+        var model = _getFakeModel();
+        expect(model.booleanField).to.equals(false);
+
+        model.multiUpdate({
+            booleanField: true
+        });
+        expect(model.booleanField).to.equals(true);
     })
 });

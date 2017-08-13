@@ -13,6 +13,9 @@ var TestSchema = new Schema({
     },
     fooArray: {
         type: Array
+    },
+    booleanField: {
+        type:Boolean
     }
 });
 

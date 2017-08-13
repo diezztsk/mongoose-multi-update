@@ -3,7 +3,7 @@ var _multiUpdate = function (model, values) {
     for (var i = 0; i < keys.length; i++) {
         var key = keys[i];
 
-        if (!model[key]) {
+        if (undefined === model[key]) {
             continue;
         }
 

@@ -1,6 +1,6 @@
 {
   "name": "mongoose-multi-update",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Mongoose plugin that allows you to update multiple fields at once.",
   "main": "index.js",
   "directories": {
